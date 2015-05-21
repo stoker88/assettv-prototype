@@ -3,5 +3,3 @@
   <?php theme('templates/_content/header.php'); ?>
 
 </header>
-
-HOME
