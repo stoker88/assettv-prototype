@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="images/logos/assettv-Logo.png" alt="Asset.tv" /></a>
+            <a class="navbar-brand" href="#"><img src="images/logos/assettv-logo.png" alt="Asset.tv" /></a>
             <!--            <button type="button" class="pull-right watchlist hidden-lg hidden-md hidden-sm" href="#">Watch List</button>-->
 
         </div>
