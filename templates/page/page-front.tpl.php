@@ -1,6 +1,6 @@
 <header id="header">
 
-  <?php theme('templates/_content/header.php'); ?>
+  <?php theme('templates/_content/front-nav.php'); ?>
 
 </header>
 
