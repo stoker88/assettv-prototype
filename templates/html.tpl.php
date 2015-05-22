@@ -9,7 +9,7 @@
     <title>ATV PROTOTYPE</title>
 
     <!-- $styles -->
-    <link href="/less/style.less" rel="stylesheet/less" type="text/css" />
+    <link href="less/style.less" rel="stylesheet/less" type="text/css" />
 
     <!-- $scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
