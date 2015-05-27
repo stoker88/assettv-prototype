@@ -1,0 +1,26 @@
+.channel-header {
+  background-color: @brand-primary;
+  > .container {
+    position: relative;
+    > img {
+      margin-left: -(@grid-gutter-width / 2);
+      user-select:none;
+      pointer-events: none;
+    }
+    > .nav-tabs {
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+}
+
+.channel-filter {
+  .sort-filter {.pull-right;}
+}
+
+.view.view-channel.view-id-video-list {
+  .make-row();
+  .views-row {
+    .make-sm-column(4);
+  }
+}

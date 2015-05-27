@@ -1,10 +1,12 @@
 <header id="header">
 
-    <?php theme('templates/_content/nav-front.php'); ?>
+  <?php theme('_content/nav-front.php'); ?>
 
 </header>
 
-<div class="clearfix footer-container">
-   <?php theme('templates/_content/footer.php'); ?>
-</div>
-HOME
+<footer class="footer">
+  <div class="container">
+    <!-- Footer Region -->
+    <?php theme('_content/footer.php'); ?>
+  </div>
+</footer>

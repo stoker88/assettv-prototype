@@ -1,0 +1,57 @@
+//Nav
+.nav {
+  .open{
+    > a, >a:hover, >a:focus{
+      border-color: transparent;
+    }
+  }
+}
+
+// Nav Brand
+.navbar-brand {
+  @logo-height: 44px;
+  padding: ((@navbar-height - @logo-height)/2) 20px;
+}
+
+// Nav Tabs
+.nav-tabs {
+  font-size: 16px;
+
+  &.nav-tabs-main {
+    > li {
+      min-width: 150px;
+      text-align: center;
+
+      > a {
+        color: #fff;
+        margin-right: 1px;
+        border-color: @nav-tabs-link-hover-border-color;
+        background-color: @nav-link-hover-bg;
+        font-weight: @font-weight-semibold;
+      }
+      &.active {
+        a {
+          background-color: @nav-tabs-active-link-hover-bg;
+          color: @brand-primary;
+          font-weight: @font-weight-bold;
+        }
+      }
+    }
+  }
+}
+
+//Main Nav
+nav#navbar {
+  ul.nav {
+    > li {
+      > a {
+        text-transform: uppercase;
+        font-weight: @font-weight-bold;
+      }
+
+      &.dropdown {
+        > a {font-weight: normal;}
+      }
+    }
+  }
+}

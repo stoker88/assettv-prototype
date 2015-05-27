@@ -1,0 +1,1 @@
+<?php theme_node('video', 'video'); ?>
