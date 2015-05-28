@@ -1,1 +1,1 @@
-MPU BLOCK
+<img src="_images/mpu.jpg" />

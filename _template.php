@@ -18,7 +18,7 @@ function theme($tpl_path, $content_path = null) {
   include $tpl_path;
 }
 
-function theme_block($block_html_id, $content_path, $title = '') {
+function theme_block($block_html_id, $content_path, $title = '', $block_class = '') {
 
   ob_start();
   include $content_path;

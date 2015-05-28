@@ -11,7 +11,7 @@
         <img src="images/assettv.png" alt="Asset.tv" />
       </a>
     </div>
-    <nav id="navbar" class="collapse navbar-collapse">
+    <nav id="main-nav" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li role="presentation" class="dropdown">
           <a href="#">Browse <span class="caret"></span></a>
@@ -24,5 +24,9 @@
         <li><a href="#">Training</a></li>
       </ul>
     </nav><!--/.nav-collapse -->
+
+    <!-- This will need to be added via a region or something! -->
+    <?php theme_block('block-search-form', '_content/searchbar.php', '', 'block-search'); ?>
+
   </div>
 </div>

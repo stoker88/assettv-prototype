@@ -9,7 +9,7 @@
     <title>ATV PROTOTYPE</title>
 
     <!-- $styles -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- $scripts -->

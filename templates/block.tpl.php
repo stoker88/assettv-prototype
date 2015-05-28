@@ -1,4 +1,4 @@
-<div class="block">
+<div id="<?php print $block_html_id; ?>" class="block <?php print $block_class; ?>">
 
   <?php print render($title_prefix); ?>
   <?php if ($block->subject): ?>

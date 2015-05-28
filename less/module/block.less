@@ -1,0 +1,54 @@
+//== Block
+//
+//##
+@block-base-padding: 15px;
+@block-large-padding: 30px;
+
+.block.block-search {
+  form {.form-inline;}
+
+  .form-item-search-block-form {
+    display: inline-block;
+    margin: 0px;
+    padding: @padding-small-vertical @padding-small-horizontal;
+    background-color: @gray-lighter;
+
+    .sponsor {margin: 0px 5px 0px 0px;}
+    input[name="search_block_form"] {
+      font-style: italic;
+      border: none;
+      background: none;
+      width: 200px;
+      padding: 2px;
+      box-shadow: none;
+
+      &:focus {outline: none; box-shadow: 0px 0px 1px 0px @gray-light;}
+    }
+  }
+
+
+  .form-submit {
+    border: none;
+    background-color: @brand-primary;
+    height: @input-height-base + ((@padding-small-vertical) * 2);
+    padding: @padding-large-vertical @padding-large-horizontal;
+    margin-left: -5px;
+
+    i.glyphicon {color: #fff; font-size: @font-size-large;}
+  }
+}
+
+.block.block-channel-contact {
+  background-color: @gray;
+  padding: @block-base-padding;
+  .content {
+    background-color: #fff;
+    padding: @block-base-padding;
+    
+    img {margin-bottom: @block-large-padding;}
+  }
+}
+
+.block.block-mpu {
+  img {border: 1px solid #000;}
+}

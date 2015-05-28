@@ -1,3 +1,26 @@
 #header {
-  .navbar {margin-bottom: 0px;}
+  .navbar {
+    margin-bottom: 0px;
+
+    //Main Nav
+    nav#main-nav {
+      float: left;
+      ul.nav {
+        > li {
+          > a {
+            text-transform: uppercase;
+            font-weight: @font-weight-bold;
+          }
+
+          &.dropdown {
+            > a {font-weight: normal;}
+          }
+        }
+      }
+    }
+    .block-search {
+      float: right;
+      margin-top: ((@navbar-height - 44px) / 2);;
+    }
+  }
 }
