@@ -85,7 +85,8 @@
     <!-- print render($content); -->
     <figure>
 
-      <video></video>
+      <!--<video></video>-->
+      <img src="_images/video.jpg" />
     </figure>
   </div>
 
