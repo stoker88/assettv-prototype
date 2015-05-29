@@ -23,7 +23,7 @@
                     <div class="header-item featuredbox col-xs-6 col-sm-6 col-md-6 col-lg-6 hidden-xs">
                         <?php
                         //include "components/header-featured.php"; 
-                        theme('_content/header-featured.php'); 
+                        theme('_content/front/header-featured.php'); 
                         ?>
                     </div>
                 </div>
