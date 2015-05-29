@@ -9,7 +9,7 @@
 
 
         <label class="element-invisible" for="edit-search-block-form--2">Search </label>
-        <input title="Sponsors SEARCH on asset.tv" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text form-control" placeholder="Sponsors SEARCH on asset.tv">
+        <input title="Sponsors SEARCH on asset.tv" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text form-control typeahead" placeholder="Sponsors SEARCH on asset.tv">
       </div>
       <div class="form-actions form-wrapper" id="edit-actions">
 
