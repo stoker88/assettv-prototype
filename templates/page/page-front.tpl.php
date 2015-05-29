@@ -16,7 +16,7 @@
                     <div class="header-item search-wrapper col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         <?php
                         //include "components/header-search.php"; 
-                        <theme('_content/header-search.php'); 
+                        theme('_content/header-search.php'); 
                         ?>
                     </div>
                     <!-- Icons need to be converted in fonticon at some point -->
