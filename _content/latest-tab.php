@@ -10,7 +10,7 @@
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="latest-content-tab">
             <?php 
-            include "latest-items.php"; 
+            //include "latest-items.php"; 
          
             theme_view('channel', 'video-list', '_content/channel/video_list.php', '_content/channel/video.php', null, '_content/channel/filter_menu.php');
             
