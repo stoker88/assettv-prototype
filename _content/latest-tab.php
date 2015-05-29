@@ -12,15 +12,15 @@
             <?php 
             //include "latest-items.php"; 
          
-            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, '_content/channel/filter_menu.php');
+            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, null);
             
             ?>
         </div>
         <div role="tabpanel" class="tab-pane" id="trending-tab">
             <?php 
-            //include "trending-items.php"; 
+          
             
-            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, '_content/channel/filter_menu.php');
+            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, null);
             
             ?>
         </div>
