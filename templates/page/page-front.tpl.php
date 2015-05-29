@@ -1,9 +1,3 @@
-<header id="header">
-
-    <?php theme('_content/nav-front.php'); ?>
-
-</header>
-
 <div id="body-container">
 
     <header id=header class="">
