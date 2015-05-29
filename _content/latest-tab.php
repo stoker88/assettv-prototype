@@ -17,7 +17,9 @@
             ?>
         </div>
         <div role="tabpanel" class="tab-pane" id="trending-tab">
-            <?php include "trending-items.php"; ?>
+            <?php 
+            include "trending-items.php"; 
+            ?>
         </div>
     </div>
 
