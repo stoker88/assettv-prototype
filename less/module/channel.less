@@ -19,8 +19,31 @@
 }
 
 .view.view-channel.view-id-video-list {
-  .make-row();
-  .views-row {
-    .make-sm-column(4);
+  > .view-content {
+    .make-row();
+    .views-row {
+      .make-sm-column(4);
+      padding-top: @padding-large-vertical;
+      padding-bottom: @padding-large-vertical;
+    }
+  }
+
+  > .view-filters {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid @gray-lighter;
+
+    > ul > li{
+      &:first-child > a {padding-left: 0px;}
+      &:last-child > a {padding-right: 0px;}
+      .caret {
+        border: none;
+        width: auto;
+        height: auto;
+        .glyphicon;
+        .glyphicon-chevron-down;
+      }
+
+    }
   }
 }
