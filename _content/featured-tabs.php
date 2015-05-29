@@ -9,7 +9,7 @@
   </ul>
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="company-channels-tab"><?php include "company-slider.php"; ?></div>
+    <div role="tabpanel" class="tab-pane active" id="company-channels-tab"><?php //include "company-slider.php"; ?></div>
     <div role="tabpanel" class="tab-pane" id="industry-channels-tab"><?php include "channels-industry.php"; ?></div>
     <div role="tabpanel" class="tab-pane" id="masterclass-tab"><?php include "channels-masterclass.php"; ?></div>
     <div role="tabpanel" class="tab-pane" id="academy-tab"><?php include "channels-academy.php"; ?></div>
