@@ -86,7 +86,18 @@
     <figure>
 
       <!--<video></video>-->
-      <img src="_images/video.jpg" />
+      <script src="https://assettvus.getmediamanager.com/js/mm.embed.v1.min.js"></script>
+      <script type="text/javascript">
+        mediamanager.width("100%");
+        mediamanager.responsive("16:9");
+        mediamanager.autoplay(false);
+        mediamanager.social(true);
+        mediamanager.template("524d335275a295281e8b46d9");
+        mediamanager.client("assettvus");
+        mediamanager.video("5564eed4140ba0bd078b45eb");
+        mediamanager.embed();
+      </script>
+      
     </figure>
   </div>
 
