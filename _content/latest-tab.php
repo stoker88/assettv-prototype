@@ -12,7 +12,7 @@
             <?php 
             //include "latest-items.php"; 
          
-            theme_view('channel', 'video-list', '_content/channel/video_list.php', '_content/channel/video.php', null, '_content/channel/filter_menu.php');
+            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, '_content/channel/filter_menu.php');
             
             ?>
         </div>
@@ -20,7 +20,7 @@
             <?php 
             //include "trending-items.php"; 
             
-            theme_view('channel', 'video-list', '_content/channel/video_list.php', '_content/channel/video.php', null, '_content/channel/filter_menu.php');
+            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, '_content/channel/filter_menu.php');
             
             ?>
         </div>
