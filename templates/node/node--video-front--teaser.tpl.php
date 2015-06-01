@@ -86,7 +86,7 @@
     <figure>
 
       <img src="_images/video_thumb.jpg" class="thumbnail"/>
-      <figcaption>45:23</figcaption>
+      <figcaption>45:25</figcaption>
     </figure>
   </div>
 
