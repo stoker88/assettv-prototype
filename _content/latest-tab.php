@@ -12,7 +12,7 @@
             <?php 
             
          
-           // theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, null);
+           theme_view('channel', 'video-list', '_content/channel/video_list.php');
             
             ?>
         </div>
