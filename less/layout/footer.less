@@ -10,7 +10,8 @@ footer.region-footer {
   .additional-links {
     display: inline-block;
     float: right;
-    padding-top: @navbar-padding-vertical/2;
-    padding-bottom: @navbar-padding-vertical/2;
+    font-size: @font-size-small;
+    padding-top: @navbar-padding-vertical/2 + (@font-size-base - @font-size-small);
+    padding-bottom: @navbar-padding-vertical/2 + (@font-size-base - @font-size-small);
   }
 }
