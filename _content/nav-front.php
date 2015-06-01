@@ -22,14 +22,8 @@
         <li><a href="#about">Blog</a></li>
         <li><a href="#about">Feedback</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown login-dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">US<img src="images/icons/login_white.png" /><i class="caret"></i></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><?php include "login.php"; ?></li>
-          </ul>
-        </li>
-      </ul>
+      <?php theme_block('block-menu-user-menu', '_content/usermenu.php', '', 'block-menu'); ?>
+
     </nav><!--/.nav-collapse -->
   </div>
 </div>
