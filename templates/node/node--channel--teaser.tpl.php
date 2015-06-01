@@ -83,16 +83,12 @@
 
   <div class="content"<?php print $content_attributes; ?>>
     <!-- print render($content); -->
-    <figure>
-
-      <img src="_images/video_thumb.jpg" class="thumbnail"/>
-      <figcaption>45:23</figcaption>
-    </figure>
+    <div class="channel-item text-left" content-type="video">
+      <a href="#">
+        <img src="images/logos/hp-logos_06.jpg" class="img-responsive">
+        <span class="key">3 Videos</span> 
+      </a>
+    </div>
   </div>
 
-  <?php print render($title_prefix); ?>
-  <?php if (!$page): ?>
-    <p class="node-title"><a href="<?php print $node_url; ?>">This is the name of our video. Rather long but its descriptive</a></p>
-  <?php endif; ?>
-  <?php print render($title_suffix); ?>
 </article>
