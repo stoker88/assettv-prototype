@@ -26,7 +26,7 @@
     </nav><!--/.nav-collapse -->
 
     <!-- This will need to be added via a region or something! -->
+    <?php theme_block('block-menu-user-menu', '_content/usermenu.php', '', 'block-menu'); ?>
     <?php theme_block('block-search-form', '_content/searchbar.php', '', 'block-search'); ?>
-
   </div>
 </div>
