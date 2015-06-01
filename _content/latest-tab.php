@@ -10,9 +10,9 @@
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="latest-content-tab">
             <?php 
-            //include "latest-items.php"; 
+            
          
-            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, null);
+           // theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, null);
             
             ?>
         </div>
@@ -20,7 +20,7 @@
             <?php 
           
             
-            theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, null);
+           // theme_view('channel', 'video-list', '_content/channel/video_list.php', null, null, null);
             
             ?>
         </div>
