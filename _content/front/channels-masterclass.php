@@ -13,11 +13,7 @@
         <?php theme('templates/_content/channel-item.php');?>
         <?php theme('templates/_content/channel-item.php');?>
         <?php theme('templates/_content/channel-item.php');?>
-        <?php theme('templates/_content/channel-item.php');?>
-        <?php theme('templates/_content/channel-item.php');?>
-        <?php theme('templates/_content/channel-item.php');?>
-        <?php theme('templates/_content/channel-item.php');?>
-        <?php theme('templates/_content/channel-item.php');?>
+       
     </ul>
     
      <div class="clearfix"></div>
