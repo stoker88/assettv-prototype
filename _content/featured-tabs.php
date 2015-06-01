@@ -14,13 +14,14 @@
         <?php theme_view('channel', 'channel-list', '_content/front/company-slider.php',null, null, null);?>
     </div>
     <div role="tabpanel" class="tab-pane" id="industry-channels-tab">
-        <?php //include "channels-industry.php"; ?>
+        <?php theme_view('channel', 'channel-list', '_content/front/channels-industry.php',null, null, null);?>
     </div>
     <div role="tabpanel" class="tab-pane" id="masterclass-tab">
-        <?php //include "channels-masterclass.php"; ?>
+        <?php theme_view('channel', 'channel-list', '_content/front/channels-masterclass.php',null, null, null);?>
     </div>
     <div role="tabpanel" class="tab-pane" id="academy-tab">
-        <?php //include "channels-academy.php"; ?>
+       
+        <?php theme_view('channel', 'channel-list', '_content/front/channels-academy.php',null, null, null);?>
     </div>
     <div role="tabpanel" class="tab-pane" id="hot-topics-tab">
         <?php theme_view('channel', 'channel-list', '_content/front/company-slider.php',null, null, null);?>
