@@ -23,7 +23,7 @@
         <?php //include "channels-academy.php"; ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="hot-topics-tab">
-        <?php //include "channels-hottopics.php"; ?>
+        <?php theme_view('channel', 'channel-list', '_content/front/company-slider.php',null, null, null);?>
     </div>
   </div>
 
