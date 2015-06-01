@@ -1,4 +1,4 @@
-<div id="item-list-channel-academy">
+<div id="item-list-channel-masterclass">
     
     <ul class="items term-list  list-unstyled">
         <?php theme('templates/_content/channel-item.php');?>
