@@ -15,6 +15,7 @@
     <!-- $scripts -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/dropdown.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/tab.js" type="text/javascript"></script>
 
   </head>
 
