@@ -1,7 +1,9 @@
 <div id="item-list-channel-academy">
-    
-    
-    
-     <div class="clearfix"></div>
-   
+
+    <ul class="items term-list  list-unstyled">
+
+    </ul>
+
+    <div class="clearfix"></div>
+
 </div>
