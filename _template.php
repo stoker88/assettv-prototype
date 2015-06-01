@@ -52,8 +52,11 @@ function theme_view($view_name, $view_id, $content_path, $attachment_before_path
     include $attachment_after_path;
   $attachment_after = ob_get_clean();
   ob_start();
-  include $exposed_path;
+  if ($exposed_path)
+     include $exposed_path;
   $exposed = ob_get_clean();
+
+  
 
 
   //tpl Vars
