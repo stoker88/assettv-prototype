@@ -39,3 +39,26 @@
     }
   }
 }
+
+.nav-inverse {
+  color: @navbar-inverse-color;
+  li {
+    a {
+      padding: @navbar-padding-vertical/2 @navbar-padding-horizontal/2;
+      color: @navbar-inverse-link-color;
+      &:hover {
+        color: @navbar-inverse-link-hover-color;
+        background-color: @navbar-inverse-link-hover-bg;
+      }
+    }
+    &.active a{
+      color: @navbar-inverse-link-active-color;
+      background-color: @navbar-inverse-link-active-bg;
+    }
+    &.disabled a{
+      color: @navbar-inverse-link-disabled-color;
+      background-color: @navbar-inverse-link-disabled-bg;
+    }
+  }
+
+}
