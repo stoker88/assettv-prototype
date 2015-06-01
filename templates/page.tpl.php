@@ -26,11 +26,8 @@
   </div>
 </div>
 
-<footer class="footer">
-  <div class="container">
-    <!-- Footer Region -->
-    <div class="region region-footer">
-      <?php theme('_content/footer.php'); ?>
-    </div>
-  </div>
+
+<!-- Footer Region -->
+<footer class="region region-footer">
+  <?php theme('_content/footer.php'); ?>
 </footer>
