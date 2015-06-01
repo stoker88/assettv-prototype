@@ -11,7 +11,7 @@
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="company-channels-tab">
         <?php include "company-slider.php"; ?>
-        <?php theme_view('channel', 'channel-list', '_content/front/company_slider.php',null, null, null);?>
+        <?php theme_view('channel', 'channel-list', '_content/front/company-slider.php',null, null, null);?>
     </div>
     <div role="tabpanel" class="tab-pane" id="industry-channels-tab">
         <?php //include "channels-industry.php"; ?>
