@@ -9,7 +9,9 @@
             </button>
             <a class="navbar-brand" href="#"><img src="images/assettv.png" alt="Asset.tv" /></a>
         </div>
-        <nav id="navbar" class="collapse navbar-collapse">
+
+
+        <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav ">
                 <li class="active"><a href="#">CHANNELS</a></li>
                 <li><a href="#about">MARKETS</a></li>
@@ -22,28 +24,10 @@
                 <li><a href="#about">Blog</a></li>
                 <li><a href="#about">Feedback</a></li>
             </ul>
-
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav ">
-                    <li class="active"><a href="#">CHANNELS</a></li>
-                    <li><a href="#about">MARKETS</a></li>
-                    <li><a href="#about">TRAINING</a></li>
-                </ul>
-                <ul class="nav navbar-nav hidden-sm second-nav text-uppercase">
-                    <li><span class="spacer">|</span></li>
-                    <li class="active"><a href="#">Trending</a></li>
-                    <li><a href="#about">Newsletter</a></li>
-                    <li><a href="#about">Blog</a></li>
-                    <li><a href="#about">Feedback</a></li>
-                </ul>
-                <?php theme_block('block-menu-user-menu', '_content/usermenu.php', '', 'block-menu'); ?>
-            </div>
+            <?php theme_block('block-menu-user-menu', '_content/usermenu.php', '', 'block-menu'); ?>
+        </div>
 
 
-
-
-
-        </nav><!--/.nav-collapse -->
     </div>
 </div>
 
