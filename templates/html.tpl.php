@@ -19,7 +19,7 @@
 
   </head>
     
-    <body <?php if($_SERVER['request_uri']) print 'class="front"'; ?>
+    <body <?php if($_SERVER['REQUEST_URI']) print 'class="front"'; ?>
 
     <?php print $content; ?>
 
