@@ -19,7 +19,7 @@
 
   </head>
 
-  <body>
+    <body <?php if($frontpage) print 'class="front"'; ?>
 
     <?php print $content; ?>
 
