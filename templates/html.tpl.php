@@ -18,8 +18,8 @@
     <script src="vendor/bootstrap/js/tab.js" type="text/javascript"></script>
 
   </head>
-
-    <body <?php if($frontpage) print 'class="front"'; ?>
+    
+    <body <?php if($_SERVER['request_uri']) print 'class="front"'; ?>
 
     <?php print $content; ?>
 
