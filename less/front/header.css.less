@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Apr-2015, 13:26:28
+    Author     : mark.simpson
+*/
+
+body.front {
+    .front-nav {
+        height:100px;
+    }
+    .col-centered{
+        float: none;
+        margin: 0 auto;
+    }
+  #body-container {
+    max-width: 1600px;
+    margin: auto;
+    background-color: white;
+
+      header {
+          
+          height: 545px;
+          background-image: url(../../images/header-bg.jpg);
+        
+            
+    
+          
+          #header-slider-wrapper {
+              /*max-width: 1370px;*/
+              margin: 0 auto;
+              //overflow:hidden;
+              height:325px;
+              .header-slider-inner {
+                    width: 200%;
+                    position: relative;
+              }
+              .header-item {
+                  /*max-width: 1240px;*/
+                  float: left;
+                  left: 0px;
+                  position: relative;
+                  
+                &.switch {
+                    cursor: pointer;
+                }  
+                &.search-wrapper {
+                     /* width: 1240px;*/
+                }
+                
+              } 
+          }
+         
+          @media (min-width: @screen-xs) {
+                height: 100px; 
+            }
+
+    @media (min-width: @screen-sm) {
+        height:362px;
+               #header-slider-wrapper {
+            .header-item {
+                
+            }
+            .go-right {
+                     position: absolute;
+                     left: 600px;
+                    bottom: 57px;
+                     img {
+                         height: 36px;
+                     }
+                }
+        }
+       
+    }
+    
+    
+    @media (min-width: @screen-md) {
+        height:435px;
+        #header-slider-wrapper {
+
+            .header-item {
+               
+            }
+            .go-right {
+                     position: absolute;
+                     left: 764px;
+                    bottom: 85px;
+                     img {
+                         height: auto;
+                     }
+                }
+        }
+    }
+    
+    
+    @media (min-width: @screen-lg) {
+        
+    }
+          
+          
+      }
+  }
+  
+
+}
+
+

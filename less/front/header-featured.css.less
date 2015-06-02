@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-Apr-2015, 15:31:01
+    Author     : mark.simpson
+*/
+
+#header-nav-btns {
+    z-index:100;
+    position:absolute;
+    width: 100%;
+    top: 51%;
+    > div {
+        cursor:pointer;
+        position: inherit;
+    }
+    .featurebox {
+        right: 100px;
+    }
+    .searchbox {
+        left: 100px;
+    }
+    @media (max-width: 1600px) {
+             /* height: 125px;  */
+    top: 125px;
+    .featurebox {
+        right: 0px;
+    }
+    .searchbox {
+        left: 0px;
+    }
+           
+    }
+    @media (max-width: @screen-sm) {
+             /* height: 125px;  */
+    top: 110px;
+    .featurebox {
+        right: 0px;
+    }
+    .searchbox {
+        left: 0px;
+    }
+           
+    }
+}
+
+
+
+.custom-carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1055px;
+    width: 75%;
+}  
+
+#header-featured {
+    margin-top: @globalVerticalMargin;
+    
+    #control-wrapper {
+          position: relative;
+          bottom: 125px;
+          a.custom-control.left {
+              left:-50px;
+          }
+          a.custom-control.right {
+              right:-50px;
+          }
+          @media (max-width: @screen-sm) {
+             /* height: 125px;  */
+            
+            a.custom-control.left {
+                left: -10px;
+            }
+            a.custom-control.right {
+                right: -10px;
+            }
+            
+
+            }
+    }
+    
+    .custom-control {
+        background: none;
+    }
+    
+    .feature-wrapper {
+
+        h2 {
+            color: @white;
+            font-weight: 400;
+            display:block;
+            height: 70px;
+            margin-left: 15px;
+            font-size:31px;
+        }
+        
+        .main-thumb {
+            height: 248px;
+            float: left;
+            margin-left: 0px
+        }
+        
+        .item-info-container {
+            position:relative;
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 10px;
+            height:227px;
+            background-color: #0c2e5f;
+            
+            .date {
+                display:block;
+                height: 20px;
+                color: @white;
+                margin-left:15px;
+            }
+        }
+        
+        .company-info-container {
+            height: 82px;
+            margin-top:13px;
+            
+            .company-logo-link {
+                float:left;
+                display: block;
+                height: 82px;
+                width: 128px;
+                background-repeat: no-repeat;
+                background-position: center; 
+                margin-right: 10px;
+            }
+            
+            .company-info {
+                padding:15px;
+                
+                h5 {
+                    color:@white;
+                    display:block;
+                    height:31px;
+                    margin:0;
+                    font-weight: 400;    
+                }
+                
+                a {
+                    font-size: 14px;
+                    color:#ba91b6;
+                    font-weight: 300;
+                }
+            }
+            
+        }
+    }
+    
+    
+}
+
+ /*  */
+
+        
+        .channel-item {
+            display:block;
+            position:relative;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom:10px;
+            .box {
+                position:relative;
+                .text-link-head {
+                    position: absolute;
+                    display: block;
+                    background-color: #0c2e5f;
+                    color: @white;
+                    font-weight:300;
+                    width: 100%;
+                    font-size: 12px;
+                    padding: 3px 8px;
+                    border-top: 2px solid #217aa6;
+                    
+                }
+            }
+            
+        }
+ 
+    
+    
+    

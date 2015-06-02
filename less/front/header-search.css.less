@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Apr-2015, 14:30:56
+    Author     : mark.simpson
+*/
+
+/*  SEARCH CSS*/
+
+#search-wrapper {
+    position:relative;
+    border-right:solid white 1px;
+    
+    .search-title {
+        h4 {
+            font-size: 52px;
+            color: @white;
+            font-weight: 300;
+            margin-top: 65px;
+            margin-bottom: 30px;
+        }
+    }
+    #search-box {
+        margin:0 auto;
+        float: none;
+        position:relative;
+        
+    }
+   
+    #featured-links-wrapper {
+        background-color:  rgba(255,255,255,0.25);
+        height:46px;
+        margin:0 auto;
+        float: none;
+        
+        #featured-links {
+           
+            a{
+                color:@white;
+            }
+        }
+        #featured-sponsor {
+           // padding: 7px 0;
+        }
+        
+        span {
+            color:@white;
+            font-size: 14px;
+
+        }
+    }
+
+
+    #search-box .input-group {
+        padding:3px;
+        background-color: @white;
+    }
+
+    #search-box .input-group input.form-text {
+        width: 100%;
+        border:1px;
+    }
+
+    #search-box form {
+        margin-bottom:0;
+    }
+
+    #search-box .input-group span .btn, #search-box .input-group span button {
+        padding: 12px 20px;
+        border: none;
+        background-color: #0092db;
+        border-radius: 0;
+        width: 64px;
+    }
+
+    #search-box .input-group input {
+        height: 49px;
+        color: #333333;
+        font-weight: bold;
+        border: none;
+          width: 100%;
+        padding-left: 15px;
+    }
+    #search-box input:focus {
+        outline: 0;
+    }
+
+    #search-featured {
+        background: #85C3D2;
+        margin: 0px 30px;
+        padding: 10px 15px;
+    }
+
+    #search-featured a {
+        color:white;
+    }
+    #search {
+            #featured-links-wrapper {
+               
+            }
+        }
+
+
+
+    @media (min-width: @screen-xs) {
+        
+    }
+/**/
+    @media (min-width: @screen-sm) {
+        width:600px;
+        .search-title {
+            h4 {
+                font-size: 30px;
+                margin:0px 0px 12px;
+            }
+        }
+        #search {
+            width:530px;
+            #featured-links-wrapper {
+                width:510px;
+                padding:12px;
+                 #featured-links {
+                      width: 85%;
+                      float: left;
+                }
+                #featured-sponsor {
+                      width: 15%;
+                      margin-top:-4px;
+                }
+            }
+        }
+    }
+    
+    
+    @media (min-width: @screen-md) {
+        width:764px;
+        height: 225px;
+        margin-top:10px;
+        padding-top: 10px;
+        .search-title {
+            h4 {
+                font-size: 41px;
+                  margin: 0px 0px 16px;
+            }
+        }
+        #search {
+            width:710px;
+            margin-top:15px;
+            #featured-links-wrapper {
+                width:670px;
+                  padding-top: 12px;
+                   #featured-links {
+                      width: 69%;
+                      float: left;
+                }
+                #featured-sponsor {
+                      width: 31%;
+                      margin-top:-4px;
+                }
+            }
+        }
+    }
+    
+    
+    @media (min-width: @screen-lg) {
+        
+    }
+    
+    
+}    
+    

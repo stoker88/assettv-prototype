@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Apr-2015, 13:26:52
+    Author     : mark.simpson
+*/
+a {
+    font-family: @defaultFont;
+}
+
+#content-top {
+    margin-top: -42px;
+    
+    @media(max-width: @screen-sm) {
+        margin-top: 0px;
+    }
+    
+    @media (min-width:@screen-xs) and (max-width:@screen-md){
+    
+    .container {
+          width: 100%;
+        }
+}
+    
+    
+    
+
+#feature-tabs {
+        #featured-tablist {
+            a {
+                margin: 0 1px;
+                background-color: rgba(255,255,255,0.25);
+                color:#FFF;
+            }
+            li {
+                 :hover {
+                     background-color: rgba(255,255,255,0.75);
+                     color:@blueDark;
+                }
+            }
+
+            li.active {
+                    background-color: rgba(255,255,255,1);
+                    a {
+                        color:@blueDark;
+                    }
+            }
+
+        }
+    }
+    .tab-content {
+       margin-top: @globalVerticalMargin;
+        min-height: 220px;
+    }
+}
