@@ -85,7 +85,7 @@
     <!-- print render($content); -->
     <figure>
 
-      <img src="_images/video_thumb.jpg" class="thumbnail"/>
+      <img src="_images/video_thumb.jpg" class="thumbnail img-responsive"/>
       <figcaption>45:23</figcaption>
     </figure>
   </div>
