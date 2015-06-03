@@ -1,12 +1,13 @@
 <div id="body-container">
 
-    <header id=header class="">
+    <header class="">
 
         <div id="front-nav">
             <?php theme('_content/nav-front.php'); ?>
         </div>
 
-        <div class=""><div id="header-nav-btns">
+        <div class="">
+            <div id="header-nav-btns">
                 <!--<div class="header-item switch featurebox hidden-xs"><img src="images/icons/slider-right.png" /></div>-->
                 <div class="header-item switch searchbox hidden"><img src="images/icons/search-glass.png" /></div>
             </div>
