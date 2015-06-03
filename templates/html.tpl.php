@@ -15,6 +15,7 @@
         <!-- $scripts -->
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/dropdown.js" type="text/javascript"></script>
+        <script src="vendor/components/dropdown.js" type="text/javascript"></script>
         <script src="vendor/bootstrap/js/tab.js" type="text/javascript"></script>
         <script src="vendor/libraries/typeahead.jquery.js" type="text/javascript"></script>
         <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
