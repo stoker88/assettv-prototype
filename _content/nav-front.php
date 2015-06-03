@@ -11,7 +11,7 @@
         </div>
 
 
-        <div class="collapse navbar-collapse">
+        <nav id='main-nav' class="collapse navbar-collapse">
             <ul class="nav navbar-nav ">
                 <li class="active"><a href="#">CHANNELS</a></li>
                 <li><a href="#about">MARKETS</a></li>
