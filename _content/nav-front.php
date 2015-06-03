@@ -25,7 +25,7 @@
                 <li><a href="#about">Feedback</a></li>
             </ul>
             <?php theme_block('block-menu-user-menu', '_content/usermenu-front.php', '', 'block-menu'); ?>
-        </div>
+        </nav>
 
 
     </div>
