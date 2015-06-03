@@ -85,7 +85,7 @@
     <!-- print render($content); -->
     <figure>
 
-      <img src="https://www.assettvus.com/sites/default/files/externals/92891033271fb4858d984de1b02ccb93.jpg" class="thumbnail"/>
+      <img src="https://www.assettvus.com/sites/default/files/externals/92891033271fb4858d984de1b02ccb93.jpg" class="thumbnail img-responsive"/>
       <figcaption>45:25</figcaption>
     </figure>
   </div>
