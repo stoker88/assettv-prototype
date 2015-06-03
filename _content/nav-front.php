@@ -13,13 +13,13 @@
 
         <nav id='main-nav' class="collapse navbar-collapse">
             <ul class="nav navbar-nav ">
-                <li class="active"><a href="#">CHANNELS</a></li>
+                <li><a href="#">CHANNELS</a></li>
                 <li><a href="#about">MARKETS</a></li>
                 <li><a href="#about">TRAINING</a></li>
             </ul>
             <ul class="nav navbar-nav hidden-sm second-nav text-uppercase">
                 <li><span class="spacer">|</span></li>
-                <li class="active"><a href="#">Trending</a></li>
+                <li><a href="#">Trending</a></li>
                 <li><a href="#about">Newsletter</a></li>
                 <li><a href="#about">Blog</a></li>
                 <li><a href="#about">Feedback</a></li>
