@@ -3,13 +3,17 @@
   > .container {
     position: relative;
     > img {
+      width: 100%;
       margin-left: -(@grid-gutter-width / 2);
-      user-select:none;
+      -moz-user-select:none;
+      -webkit-user-select:none;
       pointer-events: none;
     }
     > .nav-tabs {
-      position: absolute;
-      bottom: 0px;
+      @media (min-width: @screen-sm-min){
+        position: absolute;
+        bottom: 0px;
+      }
     }
   }
 }
@@ -25,6 +29,7 @@
   > .view-content {
     .make-row();
     .views-row {
+      .make-xs-column(12);
       .make-sm-column(4);
       padding-top: @padding-large-vertical;
       padding-bottom: @padding-large-vertical;
@@ -40,11 +45,7 @@
       &:first-child > a {padding-left: 0px;}
       &:last-child > a {padding-right: 0px;}
       .caret {
-        border: none;
-        width: auto;
-        height: auto;
-        .glyphicon;
-        .glyphicon-chevron-down;
+        .line-caret;
       }
 
     }

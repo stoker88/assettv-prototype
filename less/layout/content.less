@@ -1,7 +1,14 @@
 #main {
   .container;
-  margin-top: 60px;
+  margin-top:(@grid-gutter-width/2);
+  @media (min-width: @screen-sm-min){
+    margin-top: 60px;
+  }
+}
+.region-content-top {
+  .make-sm-column(8);
 }
 .region-content {
-  .make-sm-column(8);
+  .make-sm-column(12);
+  .make-md-column(8);
 }

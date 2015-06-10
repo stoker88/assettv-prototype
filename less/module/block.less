@@ -5,6 +5,7 @@
 @block-large-padding: 30px;
 
 .block.block-search {
+  display: none;
   form {.form-inline;}
 
   .form-item-search-block-form {
@@ -36,6 +37,10 @@
 
     i.glyphicon {color: #fff; font-size: @font-size-large;}
   }
+  
+  @media (min-width: @screen-lg-min) {
+    display: block;
+  }
 }
 
 .block#block-menu-user-menu {
@@ -53,21 +58,43 @@
 }
 
 .block.block-channel-contact {
-  background-color: @gray;
-  padding: @block-base-padding;
+  padding: 0px;
   .content {
+    .clearfix;
+    display: table;
     background-color: #fff;
-    padding: @block-base-padding;
 
-    img {margin-bottom: @block-large-padding;}
+    p {display: table-cell; vertical-align: middle;}
+    img {
+      float: left;
+      margin-right: @padding-base-horizontal;
+    }
+  }
+  @media (min-width: @screen-sm-min) {
+    background-color: @gray;
+    padding: @block-base-padding;
+    .content {
+      display: block;
+      padding: @block-base-padding;
+      p {display: block;}
+      img {
+        float: none;
+        margin-right: 0px;
+        margin-bottom: @block-large-padding;
+      }
+    }
   }
 }
 
 .block.block-mpu {
-  img {border: 1px solid #000;}
+  .hidden-xs;
+  .hidden-sm;
+  img {border: 1px solid #000; max-width: 100%;}
 }
 
 .block.block-twitter {
+  .hidden-xs;
+  .hidden-sm;
   iframe {
     height: 440px;
     width: 100% !important;

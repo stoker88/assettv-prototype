@@ -20,6 +20,7 @@
         <script src="vendor/libraries/typeahead.jquery.js" type="text/javascript"></script>
         <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
         <script src="vendor/components/supersearch.js" type="text/javascript"></script>
+        <script src="js/components/mobile-tab-dropdown.js" type="text/javascript"></script>
         <script src="vendor/libraries/proto_menu/proto.js"></script>
         <script>
 

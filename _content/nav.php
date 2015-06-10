@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img src="images/assettv.png" alt="Asset.tv" />
+        <img src="images/assettv-dark.png" alt="Asset.tv" />
       </a>
     </div>
     <nav id="main-nav" class="collapse navbar-collapse">

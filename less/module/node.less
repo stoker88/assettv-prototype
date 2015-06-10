@@ -5,11 +5,14 @@
 
     &.view-mode-video {
       .make-row();
-      figure {.make-xs-column(12);}
+      figure {
+        .make-xs-column(12);
+      }
     }
 
     &.view-mode-teaser {
       .node-title {font-weight: @font-weight-semibold;}
+      .thumbnail {width:100%;}
     }
   }
 }

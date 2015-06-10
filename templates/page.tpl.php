@@ -11,9 +11,9 @@
 <div id="main">
   <div class="row">
 
-    <!-- Content Region -->
-    <section id="content" class="region region-content">
-      <?php theme_view('channel', 'video-list', '_content/channel/video_list.php', '_content/channel/video.php', null, '_content/channel/filter_menu.php'); ?>
+    <!-- Content Top Region -->
+    <section class="region region-content-top">
+      <?php theme_block('block-featured-video', '_content/channel/video.php', '', 'block-featured-video'); ?>
     </section>
 
     <!-- Aside Region -->
@@ -22,6 +22,11 @@
       <?php theme_block('block-mpu-block', '_content/mpu_block.php', '', 'block-mpu'); ?>
       <?php theme_block('block-twitter-block', '_content/twitter_block.php', '', 'block-twitter'); ?>
     </aside>
+
+    <!-- Content Region -->
+    <section id="content" class="region region-content">
+      <?php theme_view('channel', 'video-list', '_content/channel/video_list.php', '', null, '_content/channel/filter_menu.php'); ?>
+    </section>
 
   </div>
 </div>
