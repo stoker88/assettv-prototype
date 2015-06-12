@@ -1,0 +1,131 @@
+.login-form {
+    padding:0;
+    border:0;
+    top:90%;
+
+}
+#login {
+
+    min-width:360px;
+    padding: 0px 20px;
+
+    .arrow(10px, @white, top, 90%);  
+
+    .panel {box-shadow: none;}
+
+    .regions {
+
+        ul {
+
+            li {
+
+                opacity:0.4;
+
+                &.active {
+                    opacity:1;
+                }
+            }
+
+
+        }
+        padding-top: 20px;
+        img {
+            margin-left:10px;
+        }
+    }
+
+    .heading {margin-bottom: 20px;}
+    .sub-header {font-weight: bold;
+                 a {
+                     text-transform:none;
+                 }}
+
+    form {
+        background-color: @gray-lighter;
+        padding: 15px;
+
+        + small {
+            display: block;
+            padding: 10px 0px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1em;
+        }
+    }
+
+    .content > .btn-group {
+        width: 100%;
+        &:hover {
+            opacity:0.75;
+        }
+        a {
+            background-color: #0079b8;
+            transition: opacity .25s ease-in-out;
+            -moz-transition: opacity .25s ease-in-out;
+            -webkit-transition: opacity .25s ease-in-out;
+            opacity:1;
+
+        }
+    }
+    .linkedin {
+        &:extend(.share li a);
+        background-size: cover;
+        background-position: 0px -94px;
+        width: 15%;
+        height: auto;
+        border-right: 2px solid #fff;
+        margin-right: 1px;
+        &.main-page {
+            width:7%;
+            + a {
+                width:93%;
+            }
+        }
+    }
+    .linkedin + a {
+        width: 85%;
+    }
+
+}
+
+form#user-login-form, form#atv-main-login-form, form#atv-pw-login-form {
+    .clearfix();
+
+    label {
+        display: block;
+        i {
+            font-weight: 300;
+            color: @gray-light;
+        }
+    }
+    .form-required {display: none;}
+    .form-submit {
+        &:extend(.pull-right);
+        padding: 8px 26px;
+        border: 1px solid #fff;
+        opacity:1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+        &:hover {
+
+            opacity:0.75;
+        }
+    }
+
+    .item-list {
+        &:extend(.pull-left);
+
+        ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        .first {display: none;} //Create new account is in title
+        .last {
+            &:extend(small);
+            padding-top: @line-height-computed / 2;
+            margin:0;
+        }
+    }
+}

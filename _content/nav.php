@@ -11,10 +11,10 @@
         <img src="images/assettv-dark.png" alt="Asset.tv" />
       </a>
     </div>
-    <nav id="main-nav" class="collapse navbar-collapse">
+    <nav id="main-nav" class="collapse navbar-collapse col-sm-12">
       <ul class="nav navbar-nav">
-        <li role="presentation" class="dropdown">
-          <a href="#">Browse <span class="caret"></span></a>
+                <li role="presentation" class="dropdown" >
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">BROWSE<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li>DROPDOWN</li>
           </ul>

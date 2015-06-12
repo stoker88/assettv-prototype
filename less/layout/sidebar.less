@@ -1,11 +1,16 @@
 .region-sidebar {
-  .make-xs-column(12);
-  .make-sm-column(4);
-  float: right !important;
+    .make-xs-column(12);
+    .make-sm-column(4);
+    float: right !important;
 
-  .block {
-    padding: @block-large-padding;
-    margin-bottom: @block-large-padding;
-    background-color: @gray-lighter;
-  }
+    .block {
+        padding: @block-large-padding;
+        margin-bottom: @block-large-padding;
+        background-color: @gray-lighter;
+
+        .content {
+            background-color:@white;
+            padding: @block-large-padding;
+        }
+    }
 }

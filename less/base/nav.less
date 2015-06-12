@@ -1,64 +1,84 @@
 //Nav
 .nav {
-  .open{
-    > a, >a:hover, >a:focus{
-      border-color: transparent;
+    .open{
+        > a, >a:hover, >a:focus{
+            border-color: transparent;
+        }
+
     }
-  }
+
+
+
+}
+
+     @media (max-width: @screen-md) {
+
+.nav {
+    white-space: nowrap;
+}
 }
 
 // Nav Brand
 .navbar-brand {
-  @logo-height: 44px;
-  padding: ((@navbar-height - @logo-height)/2) 20px;
+    @logo-height: 44px;
+    padding: ((@navbar-height - @logo-height)/2) 20px;
 }
 
 // Nav Tabs
+
+
+
 .nav-tabs {
-  font-size: 16px;
 
-  &.nav-tabs-main {
-    > li {
-      min-width: 150px;
-      text-align: center;
-
-      > a {
-        color: #fff;
-        margin-right: 1px;
-        border-color: @nav-tabs-link-hover-border-color;
-        background-color: @nav-link-hover-bg;
-        font-weight: @font-weight-semibold;
-      }
-      &.active {
+    li {
         a {
-          background-color: @nav-tabs-active-link-hover-bg;
-          color: @brand-primary;
-          font-weight: @font-weight-bold;
+            font-weight:400;
+            text-transform: uppercase;
         }
-      }
     }
-  }
+
+    &.nav-tabs-main {
+        > li {
+            min-width: 150px;
+            text-align: center;
+
+            > a {
+                color: #fff;
+                margin-right: 1px;
+                border-color: @nav-tabs-link-hover-border-color;
+                background-color: @nav-link-hover-bg;
+                font-weight: @font-weight-semibold;
+            }
+            &.active {
+                a {
+                    background-color: @nav-tabs-active-link-hover-bg;
+                    color: @brand-primary;
+                    font-weight: @font-weight-bold;
+                }
+            }
+        }
+    }
 }
 
 .nav-inverse {
-  color: @navbar-inverse-color;
-  li {
-    a {
-      padding: @navbar-padding-vertical/2 @navbar-padding-horizontal/2;
-      color: @navbar-inverse-link-color;
-      &:hover {
-        color: @navbar-inverse-link-hover-color;
-        background-color: @navbar-inverse-link-hover-bg;
-      }
+    color: @navbar-inverse-color;
+    li {
+        a {
+            padding: @navbar-padding-vertical/2 @navbar-padding-horizontal/2;
+            color: @navbar-inverse-link-color;
+            &:hover {
+                color: @navbar-inverse-link-hover-color;
+                background-color: @navbar-inverse-link-hover-bg;
+            }
+        }
+        &.active a{
+            color: @navbar-inverse-link-active-color;
+            background-color: @navbar-inverse-link-active-bg;
+        }
+        &.disabled a{
+            color: @navbar-inverse-link-disabled-color;
+            background-color: @navbar-inverse-link-disabled-bg;
+        }
     }
-    &.active a{
-      color: @navbar-inverse-link-active-color;
-      background-color: @navbar-inverse-link-active-bg;
-    }
-    &.disabled a{
-      color: @navbar-inverse-link-disabled-color;
-      background-color: @navbar-inverse-link-disabled-bg;
-    }
-  }
 
 }

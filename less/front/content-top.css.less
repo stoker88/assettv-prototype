@@ -14,9 +14,6 @@ a {
 #content-top {
     margin-top: -42px;
     
-    @media(max-width: @screen-sm) {
-        margin-top: 0px;
-    }
     
     @media (min-width:@screen-xs) and (max-width:@screen-md){
     
@@ -34,6 +31,7 @@ a {
                 margin: 0 1px;
                 background-color: rgba(255,255,255,0.25);
                 color:#FFF;
+                border-bottom: 1px solid transparent;
             }
             li {
                  :hover {

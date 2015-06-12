@@ -79,11 +79,10 @@
  * @ingroup themeable
  */
 ?>
-<!-- print render($content); -->
 <div class="channel-item text-left" content-type="video">
     <a href="#">
-        <img src="images/logos/hp-logos_06.jpg" class="img-responsive">
+        <img src="http://www.assettvus.com/sites/default/files/channel/images/channel-deutsche-logo-image.jpg" class="img-responsive">
         <span class="key">3 Videos</span> 
-    </a>
+    </a><h3 class="text-link">Deutsche Asset & Wealth Management</h3>
 </div>
 

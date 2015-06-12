@@ -9,31 +9,63 @@ and open the template in the editor.
 */
 
 #header-nav-btns {
+
+
     z-index:100;
     position:absolute;
     width: 100%;
     top: 51%;
+
     > div {
         cursor:pointer;
         position: inherit;
     }
+
     .featurebox {
         right: 100px;
     }
+    
+
+
     .searchbox {
-        left: 100px;
+    border-right: 1px solid #fff;
+    bottom: 660px;
+    height: 289px;
+    left: 100px;
+    padding-top: 111px;
     }
+    
+
+
     @media (max-width: 1600px) {
              /* height: 125px;  */
-    top: 125px;
     .featurebox {
         right: 0px;
     }
     .searchbox {
         left: 0px;
+        bottom: 660px;
     }
            
     }
+    
+
+    @media (max-width: 1200px) {
+             /* height: 125px;  */
+    top: 110px;
+    .featurebox {
+        right: 0px;
+    }
+    .searchbox {
+    height: 0;
+    left: 0;
+    padding-top: 0;
+    top:0;
+    }
+           
+    }
+
+
     @media (max-width: @screen-sm) {
              /* height: 125px;  */
     top: 110px;
@@ -45,6 +77,8 @@ and open the template in the editor.
     }
            
     }
+
+
 }
 
 
@@ -54,9 +88,22 @@ and open the template in the editor.
     margin-right: auto;
     max-width: 1055px;
     width: 75%;
+
+    @media (max-width: @screen-lg) {
+width: 85%;
+           
+    }
+
 }  
 
 #header-featured {
+
+        @media (max-width: 992px) {
+
+    display: none;
+    } 
+
+
     margin-top: @globalVerticalMargin;
     
     #control-wrapper {
@@ -128,7 +175,7 @@ and open the template in the editor.
                 float:left;
                 display: block;
                 height: 82px;
-                width: 128px;
+                width: 111px;
                 background-repeat: no-repeat;
                 background-position: center; 
                 margin-right: 10px;
@@ -154,7 +201,17 @@ and open the template in the editor.
             
         }
     }
-    
+
+    @media (max-width: @screen-lg) {
+
+            .feature-wrapper {
+
+        h2 {
+            font-size:20px;
+        }
+        } 
+    } 
+
     
 }
 

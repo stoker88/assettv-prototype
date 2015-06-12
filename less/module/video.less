@@ -1,0 +1,68 @@
+#block-video-tabs {
+    .nav-tabs.video-tabs {
+        background-color: #2d2d2d;
+        height: 65px;
+        width: 100%;
+        li {
+
+            &.active {
+                background-color: #fff;
+                color: #000;
+                a {
+                    color:#000;
+                }
+            }
+            a {
+                float: left;
+                background-color: #2d2d2d;
+                background-repeat: no-repeat;
+                background-position: 40px 13px;
+                height: 100%;
+                width: 110px;
+                text-align: center;
+                padding-top: 43px;
+                color: #fff;
+                cursor: pointer;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                border:0;
+
+            }
+            &.transcript {
+                a {
+                    background: url(/../images/icons/sprites.png) no-repeat -114px -592px;
+                }
+                &.active {
+                    a {
+                        background: url(/../images/icons/sprites.png) no-repeat 33px -490px;
+                    }
+                }
+            }
+            &.related {
+                a {
+                    background: url(/../images/icons/sprites.png) no-repeat -406px -90px;
+                }
+                &.active {
+                    a {
+
+                        background: url(/../images/icons/sprites.png) no-repeat -406px 6px;
+                    }
+                }
+            }
+        }
+
+    }
+    .tab-pane {
+        .text {
+            padding: 10px 0;
+        }
+    }
+}
+
+#block-video-info {
+
+    .tags {
+        font-size:12px;
+    }
+}

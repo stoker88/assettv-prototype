@@ -12,9 +12,10 @@ and open the template in the editor.
 
 #search-wrapper {
     position:relative;
-    border-right:solid white 1px;
     
     .search-title {
+        position:relative;
+        z-index:1151;
         h4 {
             font-size: 52px;
             color: @white;
@@ -24,9 +25,14 @@ and open the template in the editor.
         }
     }
     #search-box {
+        
+        &.search-small {
+            width:400px;
+        }
         margin:0 auto;
         float: none;
         position:relative;
+        z-index:1100;
         
         .form-item {
             margin:0;
@@ -39,6 +45,9 @@ and open the template in the editor.
         height:46px;
         margin:0 auto;
         float: none;
+
+
+
         
         #featured-links {
            
@@ -54,8 +63,31 @@ and open the template in the editor.
             color:@white;
             font-size: 14px;
 
+
+
+
+
+
         }
+
+
+@media (max-width: 767px) {
+        span {
+            font-size: 11px;
+
+}
+
+
+
+}
     }
+
+    @media (max-width: 767px) {
+ #featured-links-wrapper {
+        height:30px;
+ padding: 5px;
+ }
+}
 
 
     #search-box .input-group {
@@ -73,7 +105,7 @@ and open the template in the editor.
     }
 
     #search-box .input-group span .btn, #search-box .input-group span button {
-        padding: 12px 20px;
+        padding: 14px 21px;
         border: none;
         background-color: #0092db;
         border-radius: 0;
@@ -81,12 +113,14 @@ and open the template in the editor.
     }
 
     #search-box .input-group input {
+        font-size: 18px;
         height: 49px;
-        color: #333333;
-        font-weight: bold;
+        color: #808080;
+        font-weight: 300;
         border: none;
           width: 100%;
         padding-left: 15px;
+        
     }
     #search-box input:focus {
         outline: 0;
@@ -108,15 +142,28 @@ and open the template in the editor.
         }
 
 
+@media (max-width: 767px) {
+        .search-title {
+            h4 {
+                display:none;
+            }
+        }
+}
 
-    @media (min-width: @screen-xs) {
-        
+
+    @media (max-width: @screen-xs) {
+        .search-title {
+            h4 {
+                display:none;
+            }
+        }
     }
 /**/
     @media (min-width: @screen-sm) {
         width:600px;
         .search-title {
             h4 {
+            text-align: justify;
                 font-size: 30px;
                 margin:0px 0px 12px;
             }
@@ -140,13 +187,14 @@ and open the template in the editor.
     
     
     @media (min-width: @screen-md) {
-        width:764px;
+        width:670px;
         height: 225px;
         margin-top:10px;
         padding-top: 10px;
         .search-title {
             h4 {
-                font-size: 41px;
+            text-align: justify;
+                font-size: 38px;
                   margin: 0px 0px 16px;
             }
         }
@@ -170,9 +218,34 @@ and open the template in the editor.
     
     
     @media (min-width: @screen-lg) {
-        
+                width:1174px;
+        height: 315px;
+        margin-top:10px;
+        padding-top: 60px;
+        .search-title {
+            h4 {
+            text-align: center;
+                font-size: 51px;
+                  margin: 0px 0px 16px;
+            }
+        }
+        #search {
+            width:710px;
+            margin-top:15px;
+            #featured-links-wrapper {
+                width:670px;
+                  padding-top: 12px;
+                   #featured-links {
+                      width: 69%;
+                      float: left;
+                }
+                #featured-sponsor {
+                      width: 31%;
+                      margin-top:-4px;
+                }
+            }
+        }
     }
     
     
-}    
-    
+}   

@@ -1,3 +1,4 @@
+<?php theme('_content/popoutmenu.php');?>
 <div id="body-container">
 
     <header class="">
@@ -52,12 +53,11 @@
         </div>
     </section>     
 
-
-
-</div>
-
-
 <!-- Footer Region -->
 <footer class="region region-footer">
     <?php theme('_content/footer.php'); ?>
 </footer>
+
+</div>
+
+

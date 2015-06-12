@@ -5,98 +5,99 @@
 @block-large-padding: 30px;
 
 .block.block-search {
-  display: none;
-  form {.form-inline;}
+    display: none;
+    form {.form-inline;}
 
-  .form-item-search-block-form {
-    display: inline-block;
-    margin: 0px;
-    padding: @padding-small-vertical @padding-small-horizontal;
-    background-color: @gray-lighter;
+    .form-item-search-block-form {
+        display: inline-block;
+        margin: 0px;
+        padding: @padding-small-vertical @padding-small-horizontal;
+        background-color: @gray-lighter;
 
-    .sponsor {margin: 0px 5px 0px 0px;}
-    input[name="search_block_form"] {
-      font-style: italic;
-      border: none;
-      background: none;
-      width: 200px;
-      padding: 2px;
-      box-shadow: none;
+        .sponsor {margin: 0px 5px 0px 0px;float:left;}
+        input[name="search_block_form"] {
+            font-style: italic;
+            border: none;
+            background: none;
+            width: 200px;
+            padding: 2px;
+            box-shadow: none;
 
-      &:focus {outline: none; box-shadow: 0px 0px 1px 0px @gray-light;}
+            //&:focus {outline: none; box-shadow: 0px 0px 1px 0px @gray-light;}
+        }
     }
-  }
 
 
-  .form-submit {
-    border: none;
-    background-color: @brand-primary;
-    height: @input-height-base + ((@padding-small-vertical) * 2);
-    padding: @padding-large-vertical @padding-large-horizontal;
-    margin-left: -5px;
+    .form-submit {
+        border: none;
+        background-color: @brand-primary;
+        height: @input-height-base + ((@padding-small-vertical) * 2);
+        padding: @padding-large-vertical @padding-large-horizontal;
+        margin-left: -5px;
 
-    i.glyphicon {color: #fff; font-size: @font-size-large;}
-  }
-  
-  @media (min-width: @screen-lg-min) {
-    display: block;
-  }
+        i.glyphicon {color: #fff; font-size: @font-size-large;}
+    }
+
+    @media (min-width: @screen-lg-min) {
+        display: block;
+    }
 }
 
 .block#block-menu-user-menu {
-  margin-left: 10px;
-  .nav {
-    > li > a {
-      font-weight: @font-weight-bold;
-      font-size: 16px;
-      color: @gray-light;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      img {margin-top: -2px; padding: 0px 4px;}
+    margin-left: 10px;
+    .nav {
+        > li > a {
+            font-weight: @font-weight-bold;
+            font-size: 16px;
+            color: @gray-light;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            img {margin-top: -2px; padding: 0px 4px;}
+        }
     }
-  }
 }
 
 .block.block-channel-contact {
-  padding: 0px;
-  .content {
-    .clearfix;
-    display: table;
-    background-color: #fff;
-
-    p {display: table-cell; vertical-align: middle;}
-    img {
-      float: left;
-      margin-right: @padding-base-horizontal;
-    }
-  }
-  @media (min-width: @screen-sm-min) {
-    background-color: @gray;
-    padding: @block-base-padding;
+    padding: 0px;
     .content {
-      display: block;
-      padding: @block-base-padding;
-      p {display: block;}
-      img {
-        float: none;
-        margin-right: 0px;
-        margin-bottom: @block-large-padding;
-      }
+        .clearfix;
+        display: table;
+        background-color: #fff;
+
+        p {display: table-cell; vertical-align: middle;}
+        img {
+            float: left;
+            margin-right: @padding-base-horizontal;
+        }
     }
-  }
+    @media (min-width: @screen-sm-min) {
+        background-color: @gray;
+        padding: @block-base-padding;
+        .content {
+            display: block;
+            padding: @block-base-padding;
+            p {display: block;}
+            img {
+                float: none;
+                margin-right: 0px;
+                margin-bottom: @block-large-padding;
+            }
+        }
+    }
 }
 
+
 .block.block-mpu {
-  .hidden-xs;
-  .hidden-sm;
-  img {border: 1px solid #000; max-width: 100%;}
+    .hidden-xs;
+    .hidden-sm;
+    img {border: 1px solid #000; max-width: 100%;}
 }
 
 .block.block-twitter {
-  .hidden-xs;
-  .hidden-sm;
-  iframe {
-    height: 440px;
-    width: 100% !important;
-  }
+    .hidden-xs;
+    .hidden-sm;
+    iframe {
+        height: 440px;
+        width: 100% !important;
+    }
 }

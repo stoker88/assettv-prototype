@@ -5,10 +5,10 @@
 
         <div class="feature-wrapper item active">
 
-            <img class="main-thumb image-container img-responsive row col-sm-4 col-xs-4 col-lg-5 col-md-5" src="https://www.assettvus.com/sites/default/files/video/images/masterclass_small_cap_equities_-_july_2014.PNG" />
+            <img class="main-thumb image-container img-responsive row col-sm-4 col-xs-4 col-lg-5 col-md-6" src="https://www.assettvus.com/sites/default/files/video/images/masterclass_small_cap_equities_-_july_2014.PNG" />
 
 
-            <div class="item-info-container col-lg-7 col-md-7 col-sm-8 col-xs-8">
+            <div class="item-info-container col-lg-7 col-md-6 col-sm-8 col-xs-8">
 
                 <div class="item-info">
                     <h2>Risk-Managed Participation Accross Market Cycles in the States</h2>
@@ -27,10 +27,30 @@
 
         <div class="feature-wrapper item">
 
-            <img class="main-thumb image-container img-responsive row col-sm-4 col-xs-4 col-lg-5 col-md-5" src="https://assettvus.com/sites/default/files/video/images/currency-hedged_etfs.png" />
+            <img class="main-thumb image-container img-responsive row col-sm-4 col-xs-4 col-lg-5 col-md-6" src="https://assettvus.com/sites/default/files/video/images/currency-hedged_etfs.png" />
 
 
-            <div class="item-info-container col-lg-7 col-md-7 col-sm-8 col-xs-8">
+            <div class="item-info-container col-lg-7 col-md-6 col-sm-8 col-xs-8">
+
+                <div class="item-info">
+                    <h2>Guggenheim Asset is a global investment management company</h2>
+                    <span class="date text-uppercase">September 2015</span>
+                </div>
+                <div class="company-info-container" style="background-color: #482b45;">
+                    <a class="company-logo-link" href="#" style="background-image: url(images/logos/hp-logos_10.jpg)"></a>
+                    <div class="company-info">
+                        <h5>Guggenheim Asset is a global investment management company</h5>
+                        <a href="#">Visit Guggenheim Channel</a>
+                    </div>     
+                </div>
+            </div>
+        </div> 
+        <div class="feature-wrapper item">
+
+            <img class="main-thumb image-container img-responsive row col-sm-4 col-xs-4 col-lg-5 col-md-6" src="https://www.assettvus.com/sites/default/files/video/images/masterclass_small_cap_equities_-_july_2014.PNG" />
+
+
+            <div class="item-info-container col-lg-7 col-md-6 col-sm-8 col-xs-8">
 
                 <div class="item-info">
                     <h2>Risk-Managed Participation Accross Market Cycles in the States</h2>
@@ -44,8 +64,7 @@
                     </div>     
                 </div>
             </div>
-        </div> 
-
+        </div>
 
 
     </div>

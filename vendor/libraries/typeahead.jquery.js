@@ -1116,7 +1116,7 @@
             var css = {
                 wrapper: {
                     position: "relative",
-                    display: "inline-block"
+                    display: "inline"
                 },
                 hint: {
                     position: "absolute",
@@ -1133,13 +1133,13 @@
                 },
                 inputWithNoHint: {
                     position: "relative",
-                    verticalAlign: "top"
+                    verticalAlign: "middle"
                 },
                 menu: {
-                    position: "relative",
-                    top: "100%",
-                    left: "0",
-                    zIndex: "100",
+                    position: "absolute",
+                    //top: "100%",
+                    //left: "0",
+                    zIndex: "1100",
                     display: "none"
                 },
                 ltr: {

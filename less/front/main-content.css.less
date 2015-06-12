@@ -12,8 +12,17 @@ and open the template in the editor.
     margin-top:@globalVerticalMargin;
     display: block;
     border-bottom: solid 1px @greybg;
-    .active {
-        border-bottom: solid 2px @blueDark;
+    li {
+
+        &.active {
+            border-bottom: solid 2px @blueDark;
+            a {
+                border:0;
+                &:hover, &:focus {
+                    border:0;
+                }
+            }
+        }
     }
-    
+
 }

@@ -1,6 +1,6 @@
 <div id="feature-tabs" role="tabpanel">
       <!-- Nav tabs -->
-  <ul id="featured-tablist" class="nav nav-tabs nav-justified hidden-xs" role="tablist" id="myTab">
+  <ul id="featured-tablist" class="nav nav-tabs nav-justified" role="tablist" id="myTab">
     <li role="presentation" class="tabs vertical-center active"><a href="#company-channels-tab" aria-controls="company-channels-tab" role="tab" data-toggle="tab">Company Channels</a></li>
     <li role="presentation" class="tabs vertical-center"><a href="#industry-channels-tab" aria-controls="industry-channels-tab" role="tab" data-toggle="tab">Industry Channels</a></li>
     <li role="presentation" class="tabs vertical-center"><a href="#masterclass-tab" aria-controls="masterclass-tab" role="tab" data-toggle="tab">Masterclass</a></li>

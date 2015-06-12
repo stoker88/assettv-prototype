@@ -1,27 +1,27 @@
 #header {
-  .navbar {
-    margin-bottom: 0px;
+    .navbar {
+        margin-bottom: 0px;
+        z-index:1200;
+        .navbar-header {float: left;}
+        //Main Nav
+        nav#main-nav {
+            float: left;
+            ul.nav {
+                > li {
+                    > a {
+                        text-transform: uppercase;
+                        font-weight: @font-weight-bold;
+                    }
 
-    //Main Nav
-    .navbar-header {float: left;}
-    nav#main-nav {
-      float: left;
-      ul.nav {
-        > li {
-          > a {
-            text-transform: uppercase;
-            font-weight: @font-weight-bold;
-          }
-
-          &.dropdown {
-            > a {font-weight: normal;}
-          }
+                    &.dropdown {
+                        > a {font-weight: normal;}
+                    }
+                }
+            }
         }
-      }
+        .block {
+            float: right;
+            margin-top: ((@navbar-height - 44px) / 2);
+        }
     }
-    .block {
-      float: right;
-      margin-top: ((@navbar-height - 44px) / 2);
-    }
-  }
 }
