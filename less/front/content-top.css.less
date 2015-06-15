@@ -27,6 +27,18 @@ a {
 
 #feature-tabs {
         #featured-tablist {
+            &.dropdown-menu {
+             top:inherit;   
+             li {
+                 a {
+                     color:black;
+                     border: none;
+                     &:hover {
+                         color:@blueDark;
+                     }
+                 }
+             }
+            }
             a {
                 margin: 0 1px;
                 background-color: rgba(255,255,255,0.25);

@@ -2,10 +2,10 @@
     <div class="panel default">
         <div class="regions">
             <ul class="list-unstyled list-inline">
-                <li class="active"><a href="#">UK<img src="images/icons/login_white.png"></a></li>
-                <li><a href="#">US<img src="images/icons/login_white.png"></a></li>
-                <li><a href="#">AS<img src="images/icons/login_white.png"></a></li>
-                <li><a href="#">EU<img src="images/icons/login_white.png"></a></li>
+                <li class="active"><a href="#">UK<img src="images/icons/user.png"></a></li>
+                <li><a href="#">US<img src="images/icons/user.png"></a></li>
+                <li><a href="#">AS<img src="images/icons/user.png"></a></li>
+                <li><a href="#">EU<img src="images/icons/user.png"></a></li>
                
             </ul>
         </div>

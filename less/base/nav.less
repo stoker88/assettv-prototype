@@ -11,11 +11,33 @@
 
 }
 
-     @media (max-width: @screen-md) {
+.navbar.navbar-default {
 
-.nav {
-    white-space: nowrap;
+    .navbar-toggle {
+        border:0;
+        &:hover {
+            background:transparent;
+        }
+        .icon-bar {
+            background-color:#888;
+        }
+        .icon-bar {
+            display: block;
+            width: 38px;
+            height: 5px;
+            border-radius: 1px;
+        }
+        .icon-bar + .icon-bar {
+            margin-top: 6px;
+        }
+    }
 }
+
+@media (max-width: @screen-md) {
+
+    .nav {
+        white-space: nowrap;
+    }
 }
 
 // Nav Brand
